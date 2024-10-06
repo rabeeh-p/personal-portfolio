@@ -24,4 +24,9 @@ function sendMail(){
         return; // Stop the function execution if this field is empty
     }
     emailjs.send("service_oqq2179","template_moso2hz",data).then(alert("Email sent!"))
+
+
+    
 }
+
+
